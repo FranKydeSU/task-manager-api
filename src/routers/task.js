@@ -32,7 +32,7 @@ router.get('/', auth, async (req, res) => {
     // })
     const match = {}
     const sort = {}
-    console.log(req.query)
+    // console.log(req.query)
     if (req.query.completed) {
         match.completed = req.query.completed === 'true'
     }
